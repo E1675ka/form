@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("img/waterfalls.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.card {
+  margin-top: 20px;
+  transform: translate(120px);
+  padding: 1rem;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  box-shadow: 5px 5px 30px 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  /* background-image: url("img/beautiful-scenary.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: rgba(9, 24, 27, 0.441);
+  border-radius: 5px 50px;
+}
+.Form h1 {
+  color: rgb(176, 168, 168);
+  box-shadow: 1px 2px 2px 3px pink;
+}
+.Form input,
+button,
+h1 {
+  background-color: transparent;
+  border: 1px solid rgb(152, 146, 146);
+  outline: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: rgb(254, 253, 253);
+  border-radius: 2px 20px;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+.Form input:hover {
+  box-shadow: 1px 2px 2px 3px rgba(20, 16, 17, 0.55);
+  background-color: rgb(176, 158, 158);
+  color: black;
+  cursor: pointer;
+}
+.Form button:hover {
+  box-shadow: 1px 2px 2px 3px pink;
+  background-color: rgb(82, 78, 78);
+  color: black;
+  cursor: pointer;
+}
+.remember {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 10px;
+}
+button span {
+  color: rgb(236, 236, 236);
+  font-weight: 800;
+}
